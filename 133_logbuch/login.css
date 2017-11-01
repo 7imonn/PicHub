@@ -1,0 +1,20 @@
+body {
+  font-family: "Courier New";
+}
+
+#errorbox {
+    border: 2px solid;
+    border-radius: 25px;
+    border-color: #ff6600;
+    padding: 5px;
+}
+
+#errorheader {
+	color: #ff6600;
+	font-weight: bold;
+}
+
+#errormessage {
+	color: red;
+	font-weight: bold;
+}
