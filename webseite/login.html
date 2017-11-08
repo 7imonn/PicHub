@@ -1,12 +1,3 @@
-<?php 
-session_start();
-
-/* Dummy-Code für Logout */
-if (isset($_GET['abmelden'])) {
-    $_SESSION['userid'] = NULL;
-}
-
-?>
 <!DOCTYPE html>
 <html lang="de">
  <head>
@@ -19,7 +10,7 @@ if (isset($_GET['abmelden'])) {
  <body>
   <h1>Logbuch</h1>
   <h2>Bitte einloggen</h2>
-  <form action="logbuch.php" method="post">
+  <form action="index.html" method="post">
    <input id="registration" type="checkbox" name="neureg" onclick='pw_validation(this);' />
    Ich möchte mich neu registrieren
    <table id="logintable">
@@ -48,4 +39,3 @@ if (isset($_GET['abmelden'])) {
   <footer><span id="author">© 2016 Boris Däppen</span></footer>
  </body>
 </html>
-<!-- Autor: Boris Däppen, August 2016, ict Modul 133 -->

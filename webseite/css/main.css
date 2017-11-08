@@ -40,9 +40,6 @@ button{
 	width: 100%;
 	margin-top: 20px;
 }
-
-/* drag and Drop */
-
-.box__dragndrop, .box__uploading, .box__success, .box__error {
-  display: none;
+.specificUser{
+	display: none;
 }
