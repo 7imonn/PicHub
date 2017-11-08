@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>PicHub</title>
+  <meta name="description" content="PicHub">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <script src="js/scripts.js"></script>
+  <header></header>
+  <section>
+  <form method="post" action="file:///C:/Users/timon.nobelen/Desktop/webseite/postetdata.html">
+	<div>
+		<label for="titel">Titel:</label>
+		<input id="titel" type="text">
+	</div>
+	<div>
+        <label for="description">Description:</label>
+        <textarea id="description"></textarea>
+    </div>
+	<div class="box__input">
+		<input class="box__file" type="file" name="files[]" id="file" data-multiple-caption="{count} files selected" multiple />
+		<label for="file"><strong>Choose a file</strong><span class="box__dragndrop"> or drag it here</span>.</label>
+		<button class="box__button" type="submit">Upload</button>
+	</div>
+	<div class="box__uploading">Uploading&hellip;</div>
+	<div class="box__success">Done!</div>
+	<div class="box__error">Error! <span></span>.</div>
+	<!-- <div> -->
+		<!-- <label for="image">Image:</label> -->
+		<!-- <input id="image" enctype=“multipart/form-data“ type="file"></input> -->
+	<!-- </div> -->
+	
+	<button type="submit">Senden</button>
+  </form>
+  </section>
+</body>
+</html>
