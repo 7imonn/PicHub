@@ -4,3 +4,5 @@ Drag and Drop:
 https://css-tricks.com/drag-and-drop-file-uploading/
 titelseite Template ideen:
 https://www.w3schools.com/w3css/tryw3css_templates_parallax.htm
+ghost icon für logo:
+https://thenounproject.com/term/ghost/52929/
