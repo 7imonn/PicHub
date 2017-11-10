@@ -2,3 +2,5 @@ Bilder hochladen in PHP:
 https://www.strassenprogrammierer.de/php-mysql-bilder_tipp_580.html
 Drag and Drop:
 https://css-tricks.com/drag-and-drop-file-uploading/
+titelseite Template ideen:
+https://www.w3schools.com/w3css/tryw3css_templates_parallax.htm
