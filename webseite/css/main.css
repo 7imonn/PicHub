@@ -38,4 +38,20 @@ body, html {
 form{
     width: 250px;
     height: 200px;
+ }
+.hover{
+    display: none;
+    position: absolute;
+    bottom: 10px;
+    }
+.card:hover .hover{
+    display: block;
 }
+.card .card-image .card-hover {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    padding: 10px;
+  }
